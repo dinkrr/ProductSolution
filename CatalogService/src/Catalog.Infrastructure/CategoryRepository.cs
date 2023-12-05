@@ -5,7 +5,7 @@ namespace Catalog.Infrastructure
 {
     public class CategoryRepository : BaseCatalogRepository<Category>
     {
-        protected CategoryRepository(DbContext dbContext) : base(dbContext)
+        public CategoryRepository(CatalogDbContext dbContext) : base(dbContext)
         {
         }
     }
