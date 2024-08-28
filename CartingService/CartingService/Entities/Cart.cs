@@ -6,6 +6,7 @@ namespace CartingService.Entities
     {
         public string Id { get; set; }
         public string SomeProperty { get; set; }
+        public string Name { get; set; }
         public List<CartItem> Items { get; set; }
     }
 }
